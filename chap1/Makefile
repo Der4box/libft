@@ -15,9 +15,9 @@ $(LIBFT): $(OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm $(OBJ)
+	rm -f $(OBJ)
 
 fclean: clean
-	rm $(LIBFT)
+	rm -f $(LIBFT)
 
 .PHONY: fclean clean

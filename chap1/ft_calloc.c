@@ -1,8 +1,8 @@
 #include "libft.h"
 
-void	*ft_calloc(unsigned int count, unsigned int size)
+void	*ft_calloc(size_t count, size_t size)
 {
-	unsigned int	i;
+	size_t		i;
 	void		*ret;
 	char		*data;
 

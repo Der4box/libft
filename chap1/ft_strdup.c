@@ -3,8 +3,8 @@
 char	*ft_strdup(const char *s)
 {
 	char		*ret;
-	unsigned int	len_s;
-	unsigned int	i;
+	size_t		len_s;
+	size_t		i;
 
 	if (!s)
 		return (NULL);
