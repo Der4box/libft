@@ -4,7 +4,7 @@
 int	main()
 {
 	char	*test;
-	test = ft_strtrim("","-");
+	test = ft_strtrim("--hello--","-");
 	printf("%s", test);
 	free(test);
 	return (0);
